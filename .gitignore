@@ -1,2 +1,12 @@
-# Google App Engine generated folder
-appengine-generated/
+*.aux
+*.out
+*.gz
+*.lot
+*.lof
+*.toc
+*.log
+*.idx
+*.bbl
+*.bog
+*.gif
+*.png
