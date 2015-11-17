@@ -91,6 +91,49 @@ Enter a number between :
 
 To break the loop you will either need to add the "{\color{red}break}" command in your code OR press {\textbf{CTRL+C} to exit the program.
 
+\subsection{Using else statements with while loops}
+Python supports to have an else statement associated with a loop statement.
+
+If the {\color{red}else statement} is used with a while loop, the else statement is executed when the condition becomes false.
+
+\vspace{1cm}
+
+
+
+
+
+
+
+\begin{framed}
+\begin{verbatim}
+
+count = 0
+while count < 5:
+   print count, " is  less than 5"
+   count = count + 1
+else:
+   print count, " is not less than 5"
+
+\end{verbatim}
+\end{framed}
+
+\marginnote[-140pt]{The following code illustrates the combination of an else statement with a while statement that prints a number as long as it is less than 5, otherwise else statement gets executed.}
+
+\marginnote[40pt]{This is the output in python when the code above is executed.}
+\begin{shaded}
+\begin{verbatim}
+>>> 
+0 is less than 5
+1 is less than 5
+2 is less than 5
+3 is less than 5
+4 is less than 5
+5 is not less than 5
+>>> 
+\end{verbatim}
+\end{shaded}
+
+
 
 
 
